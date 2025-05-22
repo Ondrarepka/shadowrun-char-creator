@@ -49,6 +49,11 @@ resources_var.trace_add('write', update_total)
 #Table for the prio select
 prio_table = tk.Frame(window, bd=2, relief='groove', padx=10, pady=10)
 prio_table.grid(column=0, row=0, padx=10, pady=10, columnspan=2)
+
+# Info box for the priorities on the right
+desc_frame = tk.Frame(window, bd=2, relief='groove', padx=10, pady=10)
+desc_frame.grid(column=1, row=0, padx=10, pady=10, columnspan=2)
+
 #labels
 category_label = tk.Label(prio_table, text="Category")
 priority_label = tk.Label(prio_table, text="Priority")
