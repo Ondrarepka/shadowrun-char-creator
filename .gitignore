@@ -3,6 +3,7 @@ __pycache__/
 *.pyo
 *.log
 *.swp
+*_test.py
 .venv/
 env/
 dist/
