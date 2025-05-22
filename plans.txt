@@ -1,0 +1,112 @@
+🧭 Shadowrun 5e Character Creator: Python Learning Plan
+🧱 Phase 0: Foundations & Setup
+
+    Objective: Establish a solid development environment and understand the project's scope.
+
+    Steps:
+
+        Install Python 3.11+ and a code editor (e.g., VS Code).
+
+        Set up Git and clone the Chummer5a repository.
+
+        Explore Chummer5a's structure, focusing on XML data files like books.xml and amend_weapons.xml .
+
+        Learn basic Python syntax: variables, functions, classes, and file I/O.
+
+        Choose a GUI framework: tkinter (built-in) or PyQt5 (more advanced).
+
+🎲 Phase 1: Dice Roller Integration
+
+    Objective: Build upon your existing Dice Roller to integrate it into the character creation process.
+
+    Steps:
+
+        Review and refine your OOP-based Dice Roller.
+
+        Create a simple CLI menu to roll attributes (e.g., 3d6 for stats).
+
+        Design a Character class to store attributes and other relevant data.
+
+        Implement functionality to save and load character data using JSON.
+
+🧬 Phase 2: Parsing Chummer5a XML Data
+
+    Objective: Extract and utilize data from Chummer5a's XML files to populate your application.
+
+    Steps:
+
+        Learn to parse XML using Python's xml.etree.ElementTree module.
+
+        Extract relevant data such as races, skills, qualities, and equipment.
+
+        Store parsed data in Python structures (e.g., dictionaries or custom classes).
+
+        Display extracted options in your CLI for user selection.
+
+🖥️ Phase 3: Transition to GUI
+
+    Objective: Enhance user experience by introducing a graphical interface.
+
+    Steps:
+
+        Design a basic GUI layout with sections for attributes, skills, and equipment.
+
+        Implement input fields, dropdowns, and buttons for user interaction.
+
+        Display character information dynamically as users make selections.
+
+        Integrate the Dice Roller into the GUI for rolling attributes and skills.
+
+🧩 Phase 4: Advanced Features
+
+    Objective: Incorporate complex Shadowrun mechanics and additional functionalities.
+
+    Steps:
+
+        Implement priority-based character creation (e.g., allocating priorities to race, magic, attributes, etc.).
+
+        Add support for special attributes like Essence, Magic, and Resonance.
+
+        Introduce karma and nuyen tracking.
+
+        Enable adding cyberware, bioware, and other augmentations.
+
+        Implement validation to ensure characters adhere to Shadowrun rules.
+
+🌐 Phase 5: Data Persistence and Export
+
+    Objective: Allow users to save, load, and export character data.
+
+    Steps:
+
+        Enhance save/load functionality to handle complex character data.
+
+        Implement export options to formats like PDF or XML.
+
+        Ensure compatibility with other tools or platforms, if desired.
+
+🚀 Phase 6: Deployment and Distribution
+
+    Objective: Prepare your application for distribution and use on various platforms.
+
+    Steps:
+
+        Package your application using tools like PyInstaller or cx_Freeze.
+
+        Test the application on different operating systems, focusing on Linux compatibility.
+
+        Create documentation and tutorials for users.
+
+        Consider open-sourcing your project and sharing it with the community.
+
+📚 Additional Resources
+
+    Chummer5a Repository: https://github.com/chummer5a/chummer5a
+
+    Python XML Parsing: https://docs.python.org/3/library/xml.etree.elementtree.html
+
+    Tkinter Tutorial: https://docs.python.org/3/library/tkinter.html
+
+    PyQt5 Documentation: https://www.riverbankcomputing.com/static/Docs/PyQt5/
+
+I'm here to guide you through each phase. Let's start with Phase 0. Do you have Python and a code editor installed? Would you like assistance in setting up your development environment or exploring the Chummer5a repository?
