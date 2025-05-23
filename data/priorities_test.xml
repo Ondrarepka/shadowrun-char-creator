@@ -1,0 +1,16 @@
+<priorities>
+    <table name="Magic">
+        <row grade="A">Full Mage, Mystic Adept, Technomancer</row>
+        <row grade="B">Mystic Adept, Adept</row>
+        <row grade="C">Adept</row>
+        <row grade="D">Aspected Magician</row>
+        <row grade="E">No Magic</row>
+    </table>
+    <table name="Attributes">
+        <row grade="A">24 Attribute Points</row>
+        <row grade="B">20 Attribute Points</row>
+        <row grade="C">16 Attribute Points</row>
+        <row grade="D">14 Attribute Points</row>
+        <row grade="E">12 Attribute Points</row>
+    </table>
+</priorities>

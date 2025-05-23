@@ -1,4 +1,10 @@
 import tkinter as tk
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from logic.loader import load_priorities
+data = load_priorities("data/priorities_test.xml")
+print(data["Attributes"]["B"])
 
 class PriorityAssigmentUI:
     def __init__(self, parent):
